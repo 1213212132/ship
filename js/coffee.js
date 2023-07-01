@@ -14,15 +14,15 @@ $(function () {
   })
 
 
-
-  var swiper = new Swiper(".swiper", {
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-
+  $('.tap_box .top_tap li').on('click', function (e) {
+    e.preventDefault();
+    let idx = $(this).index();
+    $('.tap_box .bottom_tap li').eq(idx).addClass('on').siblings().removeClass('on');
+    $(this).addClass('on').siblings().removeClass('on');
   });
+
+
+
 
 
 })

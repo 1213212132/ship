@@ -146,7 +146,7 @@ body {
   text-align: center;
   margin-top: 6px;
   line-height: 1.5;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 
@@ -198,7 +198,7 @@ body {
 
 .ani .fnt {
   display: inline-block;
-  font-size: 66px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -230,4 +230,272 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #555;
+}
+
+/**/
+
+
+.tap_menu .left {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 500px;
+
+  text-align: center;
+
+  z-index: 1;
+}
+
+/* .tap_menu .left::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  background-color: #eee;
+} */
+
+
+.tap_menu .left span {
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  transition: color .3s;
+
+
+}
+
+.color_box {
+  background: #eee;
+}
+
+.tap_menu .top ul {
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+
+.tap_menu .tap_box .bottom img {
+  float: right;
+  width: 50%;
+}
+
+
+
+.tap_menu .tap_box .bottom .tap_tit {
+  position: relative;
+
+  top: 50px;
+  text-align: center;
+
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  color: #333;
+
+}
+
+
+.tap_menu .tap_box .bottom .p_txt {
+  position: relative;
+  top: 50px;
+  width: 500px;
+  margin-left: 3.2%;
+  text-align: center;
+  min-height: 144px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  color: #666;
+}
+
+
+
+.tap_menu .tap_box .bottom li {
+  height: 0;
+  overflow: hidden;
+}
+
+.tap_menu .tap_box .bottom li.on {
+  height: auto;
+}
+
+/**/
+
+.news {
+  position: relative;
+  height: 100px;
+
+
+}
+
+
+.news .left .img_box img {
+
+
+  height: 250px;
+}
+
+.news .left .img_box {
+  position: relative;
+  bottom: 10px;
+  width: 27%;
+
+}
+
+
+.news .left .img_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .6);
+  transition: background-color .3s ease;
+  z-index: 1;
+}
+
+.news .left .img_box:hover::before {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+
+
+.news .label {
+  display: block;
+  position: absolute;
+
+
+  width: 140px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  background-color: #f2851f;
+  z-index: 2;
+}
+
+.news .left h2 {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 34px;
+  margin-left: 1%;
+  top: 160%;
+  z-index: 99;
+}
+
+
+
+.news .left p {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 1%;
+  left: 25%;
+  top: 195%;
+  z-index: 99;
+}
+
+
+.news .left a {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 1%;
+  left: 25.5%;
+  top: 210%;
+  z-index: 99;
+}
+
+.news .center h2 {
+  position: relative;
+  bottom: 380px;
+  left: 41%;
+  font-size: 38px;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 20px;
+
+}
+
+.news_list>.item {
+  position: relative;
+
+  bottom: 280px;
+  left: 27%;
+  z-index: 99;
+}
+
+.news_list>.item>.link {
+
+  display: inline-block;
+  justify-content: center;
+
+  padding: 17px 20px 17px 28px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  white-space: nowrap;
+  width: 40%;
+
+}
+
+
+
+
+
+
+
+
+.news_list>.item>.date {
+
+
+  font-size: 15px;
+  font-weight: 700;
+  color: #ccc;
+}
+
+
+.btn_news {
+
+  width: 130px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #333;
+  border: 1px solid #dcdcdc;
+  transition: border-radius .3s ease, border-color .3s;
+  padding: 10px;
+
+}
+
+
+.btn_news:hover {
+  border-radius: 25px;
+  border-color: #aaa;
+}
+
+.news .right img {
+  position: relative;
+  float: right;
+  bottom: 570px;
+  height: 270px;
+  width: 20%;
 }
