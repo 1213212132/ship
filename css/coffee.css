@@ -203,6 +203,27 @@ body {
   line-height: 1;
   color: #000;
   letter-spacing: -0.03em;
+
+  animation: mainDiagLeftMotion 2.5s forwards;
+  transition: visibility .3s, opacity .3s, transform .3s;
+}
+
+@keyframes mainDiagLeftMotion {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  70% {
+    transform: translateX(0);
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 
@@ -231,6 +252,8 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+
 
 /**/
 
