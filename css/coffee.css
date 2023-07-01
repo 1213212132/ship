@@ -262,7 +262,7 @@ body {
   position: relative;
   float: left;
   width: 50%;
-  height: 500px;
+
 
   text-align: center;
 
@@ -355,12 +355,6 @@ body {
 
 /**/
 
-.news {
-  position: relative;
-  height: 100px;
-
-
-}
 
 
 .news .left .img_box img {
@@ -377,112 +371,27 @@ body {
 }
 
 
-.news .left .img_box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .6);
-  transition: background-color .3s ease;
-  z-index: 1;
-}
 
-.news .left .img_box:hover::before {
-  background-color: rgba(0, 0, 0, .4);
-}
-
-
-
-.news .label {
-  display: block;
-  position: absolute;
-
-
-  width: 140px;
-  height: 50px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-  background-color: #f2851f;
-  z-index: 2;
-}
-
-.news .left h2 {
-  position: absolute;
-  display: block;
-  color: #fff;
-  font-size: 34px;
-  margin-left: 1%;
-  top: 160%;
-  z-index: 99;
-}
-
-
-
-.news .left p {
-  position: absolute;
-  display: block;
-  color: #fff;
-  font-size: 24px;
-  margin-left: 1%;
-  left: 25%;
-  top: 195%;
-  z-index: 99;
-}
-
-
-.news .left a {
-  position: absolute;
-  display: block;
-  color: #fff;
-  font-size: 24px;
-  margin-left: 1%;
-  left: 25.5%;
-  top: 210%;
-  z-index: 99;
-}
-
-.news .center h2 {
-  position: relative;
-  bottom: 380px;
-  left: 41%;
-  font-size: 38px;
-  font-weight: 700;
-  color: #333;
-  padding-bottom: 20px;
-
-}
 
 .news_list>.item {
-  position: relative;
 
   bottom: 280px;
   left: 27%;
-  z-index: 99;
+
 }
 
 .news_list>.item>.link {
 
   display: inline-block;
   justify-content: center;
-
   padding: 17px 20px 17px 28px;
   font-size: 16px;
   line-height: 1.5;
   color: #666;
   white-space: nowrap;
-  width: 40%;
+  width: 42%;
 
 }
-
-
-
-
-
 
 
 
@@ -494,6 +403,13 @@ body {
   color: #ccc;
 }
 
+.news .right img {
+  position: absolute;
+  bottom: 130px;
+  height: 300px;
+  right: 369px;
+  width: 20%;
+}
 
 .btn_news {
 
@@ -515,10 +431,25 @@ body {
   border-color: #aaa;
 }
 
-.news .right img {
+.news {
+  position: relative;
+}
+
+.news .center img {
   position: relative;
   float: right;
-  bottom: 570px;
-  height: 270px;
+  right: 250px;
+  bottom: 300px;
+  height: 300px;
   width: 20%;
+}
+
+/**/
+
+.footer {
+  position: relative;
+  top: 0;
+  background: #333333;
+  padding: 50px;
+  color: #f9f9f9;
 }
