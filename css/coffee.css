@@ -447,7 +447,7 @@ body {
 .footer {
 
   position: relative;
-  top: 0;
+  bottom: 0;
   background: #333333;
   padding: 50px;
   color: #f9f9f9;
@@ -489,8 +489,7 @@ body {
 
 .ft_content {
   display: flex;
-  justify-content: space-between;
-  min-width: 0;
+  min-width: 1200;
   line-height: 1.4;
 }
 
@@ -514,10 +513,15 @@ body {
   color: #5b5b5b;
 }
 
-.language {}
+.language {
+  position: relative;
+  margin: 0 0 0 570px;
 
-/* .language .btn_select_language {
+}
+
+.language .btn_select_language {
   display: block;
+
   position: relative;
   width: 50px;
   height: 31px;
@@ -537,8 +541,8 @@ body {
 
 .language>.language_list {
   position: absolute;
-  top: 100%;
-  left: -50px;
+  top: 30%;
+  left: -10px;
   right: 0;
   visibility: hidden;
   opacity: 0;
@@ -546,13 +550,14 @@ body {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
   transition: visibility .25s ease, opacity .25s ease;
   z-index: 11;
+
 }
 
 
 .language>.language_list>li {
   text-align: left;
   border-bottom: 1px solid #eee;
-  width: 12%;
+
 }
 
 .language>.language_list>li:last-child {
@@ -589,4 +594,19 @@ body {
 .language.on>.language_list {
   visibility: visible;
   opacity: 1;
-} */
+}
+
+
+.ft_family {
+  margin: 0 0 0 auto;
+
+  width: 200px;
+  height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #7c7c7b;
+  border: 0;
+  background-color: #1a1917;
+  cursor: pointer;
+  outline: none;
+}
