@@ -22,6 +22,12 @@ $(function () {
   });
 
 
+  $('.language').on('click', function () {
+    $(this).toggleClass('on');
+    $(this).next().toggleClass('on');
+  })
+
+
 
 
 

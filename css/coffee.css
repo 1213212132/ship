@@ -374,9 +374,9 @@ body {
 
 
 .news_list>.item {
-
-  bottom: 280px;
-  left: 27%;
+  position: relative;
+  bottom: 3px;
+  left: 23%;
 
 }
 
@@ -403,12 +403,11 @@ body {
   color: #ccc;
 }
 
-.news .right img {
+.news .left img {
   position: absolute;
   bottom: 130px;
   height: 300px;
-  right: 369px;
-  width: 20%;
+  width: 13%;
 }
 
 .btn_news {
@@ -435,21 +434,159 @@ body {
   position: relative;
 }
 
-.news .center img {
-  position: relative;
-  float: right;
-  right: 250px;
-  bottom: 300px;
+.news .right img {
+  position: absolute;
+  right: 367px;
+  bottom: 140px;
   height: 300px;
-  width: 20%;
+  width: 13%;
 }
 
 /**/
 
 .footer {
+
   position: relative;
   top: 0;
   background: #333333;
   padding: 50px;
   color: #f9f9f9;
 }
+
+.footer .inner {
+  max-width: 1200px;
+}
+
+
+.ft_header {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 40px;
+
+}
+
+.ft_bar {}
+
+.ft_list {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.ft_list>.fot {
+
+  margin-left: 30px;
+}
+
+.ft_list a {
+  font-size: 15px;
+  color: #979797;
+}
+
+
+.ft_content {
+  display: flex;
+  justify-content: space-between;
+  min-width: 0;
+  line-height: 1.4;
+}
+
+
+
+.ft_content ul,
+.ft_content li {
+  float: left;
+  padding-bottom: 8px;
+  font-size: 14px;
+  color: #979797;
+}
+
+.ft_content li {
+  float: none;
+}
+
+.copyright {
+  margin-top: 22px;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.language {}
+
+/* .language .btn_select_language {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 31px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fefefe;
+  text-align: left;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+
+}
+
+.language .btn_select_language>.icon {
+  font-size: 12px;
+}
+
+.language>.language_list {
+  position: absolute;
+  top: 100%;
+  left: -50px;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fefefe;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: visibility .25s ease, opacity .25s ease;
+  z-index: 11;
+}
+
+
+.language>.language_list>li {
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  width: 12%;
+}
+
+.language>.language_list>li:last-child {
+  border-bottom: 0;
+}
+
+
+
+
+.language>.language_list>li>a {
+  display: block;
+  font-size: 13px;
+  color: #333;
+  padding: 6px 0;
+  text-align: center;
+
+}
+
+.language>.language_list>li>a:hover {
+  background: #f1f1f1
+}
+
+.language>.language_list>li>a.act {
+
+  background-color: #f18d00;
+  font-weight: 700;
+  color: #fff;
+}
+
+.language.on>.btn_select_language>.icon::before {
+  content: "\e930"
+}
+
+.language.on>.language_list {
+  visibility: visible;
+  opacity: 1;
+} */
