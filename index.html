@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="wilih=device-wilih, initial-scale=1.0">
-  <title>짱구커피</title>
+  <title>PanStar</title>
 
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="./css/swiper.min.css">
   <link rel="stylesheet" href="./css/animate.min.css">
-  <link rel="stylesheet" href="./css/coffee.css">
+  <link rel="stylesheet" href="./css/PanStar.css">
 
   <script src="./js/jquery-1.12.4.min.js"></script>
   <script src="./js/slick.min.js"></script>
   <script src="./js/swiper.min.js"></script>
-  <script src="./js/coffee.js"></script>
+  <script src="./js/PanStar.js"></script>
 </head>
 
 <body>
@@ -34,6 +34,7 @@
             <a class="logo_on" href="">
               <img src="./img/logo_ov.png" alt="">
             </a>
+
           </h1>
           <nav class="gnb">
 
@@ -92,6 +93,12 @@
 
           </nav>
 
+          <div class="mobile_btn">
+            <button>
+              <span class="blind">모바일메뉴</span>
+            </button>
+          </div>
+
           <ul class="header_right">
             <li><a class="shadow" href="/">e SHIPPING</a></li>
           </ul>
@@ -104,12 +111,18 @@
 
       <section class="main_visual">
         <div class="video_wrap">
+
+
+
           <div class="player">
+
             <video muted="" loop="" autoplay="" poster="./img/visual_default.png">
               <source src="https://www.panstar.co.kr/src/video/visual.mp4" type="video/mp4">해당 브라우저는 video 태그를 지원하지
               않습니다.
             </video>
           </div>
+
+
           <div class="inner">
 
             <div class="slogan">
@@ -123,6 +136,20 @@
 
           </div>
 
+
+
+
+          <div class="vidoe_grapic">
+            <div class="grapic video_first_left_img"></div>
+            <div class="grapic video_two_left_img"></div>
+            <div class="grapic video_three_left_img"></div>
+            <div class="grapic video_four_left_img"></div>
+            <div class="grapic video_five_left_img"></div>
+
+            <div class="grapic video_first_right_img"></div>
+
+            <div class="grapic video_two_right_img"></div>
+          </div>
 
         </div>
       </section>
@@ -139,7 +166,7 @@
                 <img src="./img/calendar (1).png" alt="">
               </div>
               <div class="fnt_area">
-                <strong class="fnt" data-time="800" data-num="31">31</strong>
+                <strong class="fnt">31</strong>
                 <span class="unit">YEARS</span>
               </div>
               <div class="txt_area">
@@ -155,7 +182,7 @@
                 <img src="./img/holidays.png" alt="">
               </div>
               <div class="fnt_area">
-                <strong class="fnt" data-time="3200" data-num="1525241">1,525,241</strong><span class="unit">명</span>
+                <strong class="fnt">152</strong><span class="unit">만명</span>
               </div>
               <div class="txt_area">
                 <p class="txt">
@@ -209,11 +236,11 @@
             그리고 이제 고객을 위한 최고를 만들어 갑니다.</p>
         </div>
 
-        <div class="inner">
+        <div class="inner_box">
 
           <div class="tap_box">
             <div class="top">
-              <ul class="top_tap">
+              <ul class="top_tap inner">
                 <li><span>고속화물페리</span></li>
                 <li><span>크루즈여객</span></li>
                 <li><span>국제특송</span></li>
@@ -222,9 +249,12 @@
                 <!-- <li><span>창고보관</span></li> -->
               </ul>
             </div>
+
+            <div class="btn"><a href="">MORE Detail</a></div>
+
             <div class="color_box">
 
-              <div class="bottom">
+              <div class="bottom inner">
                 <ul class="bottom_tap">
                   <li class="on">
                     <figure><img class="right_img" src="./img/right_tap_1.png" alt=""></figure>
@@ -327,6 +357,10 @@
 
       </section>
 
+
+
+
+
       <section class="news sec">
         <div class="inner">
           <h2 class="m_typ">Contact Us</h2>
@@ -338,7 +372,7 @@
 
           <ul class="news_list">
             <li class="item">
-              <a href="/" class="link">[ 안내] 팬스타크루즈 예약 시스템 점검 안내</a>
+              <a href="/" class="link">[안내] 팬스타크루즈 예약 시스템 점검 안내</a>
               <time class="date">
                 <i class="icon xi-time-o"></i> 2022-07-10
               </time>
@@ -372,17 +406,103 @@
             <a href="" class="btn_news">소식더보기</a> -->
 
           <div class="left">
-            <img src="./img/31.jpg" alt="">
+            <div class="img_box">
+              <img src="./img/31.jpg" alt="">
+            </div>
+
+            <div class="label">
+              보도자료
+            </div>
+
           </div>
           <div class="right">
             <img src="./img/bg_main_recruit.png" alt="">
+            <h3>
+              Recruit
+            </h3>
+            <span>팬스타 채용안내</span>
+            <div class="btn">
+              <a href="">채용공고확인</a>
+            </div>
           </div>
         </div>
       </section>
 
-
+      <!-- 
       <section class="new">
-        <h2>22</h2>
+
+      </section> -->
+
+
+      <section class="ship_event sec">
+
+        <div class="inner">
+
+          <h2 class="m_typ"> 팬스타 드림 서비스
+          </h2>
+          <p class="m_sub"> 알고 떠나면 더 즐거운 팬스타크루즈, 추천 선내 서비스!
+          </p>
+
+
+          <div class="event_grid">
+            <figure>
+              <div class="img_box" data-title="pre_one">
+                <img src="./img/main_img_service_01.png" alt="">
+              </div>
+              <div class="event_txt">
+
+                <h3>더파라다이스</h3>
+                <span>크루즈라운지에서 바다가 주는 특별한 휴식을 만끽해 보세요. 승선과 함께 여행이 시작됩니다.
+
+                </span>
+
+              </div>
+
+
+            </figure>
+            <figure>
+              <div class="img_box" data-title="pre_two">
+                <img src="./img/main_img_service_02.png" alt="">
+              </div>
+              <div class="event_txt">
+
+                <h3>카페 유메</h3>
+                <span>바다로 열린 공간 선상카페 유메에서 아름다운 음악과 정취에 마음껏 취하실 수 있습니다.
+
+                </span>
+
+              </div>
+
+            </figure>
+            <figure>
+              <div class="img_box" data-title="pre_three">
+                <img src="./img/main_img_service_03.png" alt="">
+              </div>
+              <div class="event_txt">
+
+                <h3>선내 면세점</h3>
+                <span>일반 면세점과는 차별화된 팬스타 드림호 선내 면세점의 일본현지인기상품 면세쇼핑 찬스
+
+                </span>
+
+              </div>
+            </figure>
+            <figure>
+              <div class="img_box" data-title="pre_four">
+                <img src="./img/main_img_service_04.png" alt="">
+              </div>
+              <div class="event_txt">
+
+                <h3>테라피하우스</h3>
+                <span>힐링과 충전의 시간을 제공하는 테라피하우스에서 여행을 준비하고 정리하는 시간
+
+                </span>
+
+              </div>
+            </figure>
+          </div>
+
+
       </section>
 
     </main>
@@ -404,7 +524,7 @@
 
         <div class="ft_content">
           <ul class="ft_bot">
-            <li class="blind">서울 사업장</li>
+            <h2 class="blind">서울 사업장</h2>
             <li>
               <addres>서울특별시 중구 무교로 20, 어린이재단빌딩 5층</addres>
             </li>

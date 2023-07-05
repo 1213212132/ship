@@ -1804,13 +1804,10 @@ body {
   z-index: 2;
 }
 
-.color_box {}
-
 .mb-img-area .btn {
-
+  position: absolute;
   left: -73px;
-
-  z-index: 999;
+  top: 50%;
   transform: translateY(-50%);
 }
 
